@@ -2,11 +2,10 @@ package com.fc.dao;
 
 import com.fc.entity.Student;
 
+import java.util.List;
+
 public interface StudentDao {
-    Student select();
-
-    int add();
-
-
+    List<Student> findAll();
     Student findById(Integer id);
+
 }

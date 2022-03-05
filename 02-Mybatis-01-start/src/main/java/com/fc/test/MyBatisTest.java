@@ -12,58 +12,6 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class MyBatisTest {
-    @Test
-    public void testAdd() {
-        SqlSession session = null;
-
-        try {
-            // 读取配置文件
-            InputStream inputStream = Resources.getResourceAsStream("mybatis-config.xml");
-
-            // 获取工厂对象
-            SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(inputStream);
-
-            // 获取连接
-            session = factory.openSession();
-
-            // 执行指定的SQL语句
-            int affectedRows = session.insert("StudentMapper.add");
-
-            // 所有的增删改操作都需要进行提交
-            session.commit();
-
-            System.out.println("受影响的行数：" + affectedRows);
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            // 关闭连接
-            if (session != null) {
-                session.close();
-            }
-        }
-    }
-
-    @Test
-    public void testSelect() {
-        try {
-            // 读取配置文件
-            InputStream inputStream = Resources.getResourceAsStream("mybatis-config.xml");
-
-            // 获取sqlSession工厂对象
-            SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-
-            // 获取sqlSession，这个东西就类似queryRunner。包含了所有对数据库的操作
-            SqlSession session = sqlSessionFactory.openSession();
-
-            // 执行指定明明空间下的指定sql语句
-            Object o = session.selectOne("StudentMapper.select");
-
-            System.out.println(o);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
     @Test
     public void testDao() {
@@ -80,7 +28,7 @@ public class MyBatisTest {
             // 获取接口的实现类对象
             StudentDao studentDao = session.getMapper(StudentDao.class);
 
-            Student student = studentDao.selectOne();
+            Student student = studentDao.select();
 
             System.out.println(student);
         } catch (IOException e) {
