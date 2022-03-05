@@ -1,4 +1,4 @@
-package com.example._01_ThirdLayerApplication;
+package com.fc._01_ThirdLayerApplication;
 
 import java.io.*;
 import javax.servlet.http.*;
