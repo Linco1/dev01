@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.fc.dao.AccountDao">
+    <resultMap id="accountMap" type="com.fc.entity.Account">
+        <id property="id" column="t_id"/>
+        <result property="username" column="t_name"/>
+        <result property="password" column="t_pwd"/>
+    </resultMap>
+    <select id="findAll" resultType="com.fc.entity.Account">
+        select t_id as id, t_name as username, t_pwd as password from t_account
+    </select>
+    <select id="findAllOnMap" resultMap="accountMap">
+        select * from t_account
+    </select>
+    <select id="findById" resultType="com.fc.entity.TAccount">
+        select * from t_account where t_id = #{id}
+    </select>
+</mapper>
