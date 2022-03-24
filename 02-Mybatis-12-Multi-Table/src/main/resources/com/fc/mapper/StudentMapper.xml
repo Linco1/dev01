@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.fc.dao.StudentDao">
+    <resultMap type="com.fc.entity.Student" id="findAllWithSubjectMap">
+
+    <id column="stu_id" property="id"/>
+
+    <result column="stu_name" property="name"/>
+
+    <result column="age" property="age"/>
+
+    <result column="gender" property="gender"/>
+
+    <result column="birthday" property="birthday"/>
+
+    <result column="info" property="info"/>
+
+
+    <collection property="subjects" ofType="com.fc.entity.Subject" javaType="List">
+
+    <id column="sub_id" property="id"/>
+
+    <result column="sub_name" property="name"/>
+
+</collection>
+
+</resultMap>
+    <select id="findAllWithSubject" resultMap="findAllWithSubjectMap">
+        select stu.id as stu_id, stu.name as stu_name, age, gender, birthday, info,
+               sub.id as sub_id, sub.name as sub_name from student stu
+        inner join student_ref_subject srs on stu.id = srs.stu_id
+         inner join subject sub on sub.id = srs.sub_id
+    </select>
+</mapper>

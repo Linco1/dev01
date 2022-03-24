@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.fc.dao.DepartmentDao">
+    <resultMap id="findByDepartmentIdMap" type="com.fc.entity.Department">
+      <id column="dept_id" property="id"/>
+        <result column="dept_name" property="name"/>
+        <collection column="dept_id" property="employees" select="com.fc.dao.EmployeeDao.findByDepartmentId"
+                    ofType="com.fc.entity.Employee" javaType="List" fetchType="lazy"/>
+    </resultMap>
+   <select id="findByDepartmentId" resultMap="findByDepartmentIdMap">
+       select * from department where dept_id = #{id}
+   </select>
+</mapper>

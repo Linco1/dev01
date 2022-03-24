@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean class="com.fc.entity.Car" id="car">
+        <property value="红色" name="color"/>
+        <property value="140" name="speed"/>
+    </bean>
+    <bean class="com.fc.entity.Person" id="person">
+        <property value="姐性感你不配" name="name"/>
+        <property name="gender" value="男"/>
+        <property name="car" ref="car"/>
+
+    </bean>
+
+</beans>
