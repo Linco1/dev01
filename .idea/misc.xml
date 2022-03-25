@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/01-ThirdLayerApplication" />
+    <file type="web" url="file://$PROJECT_DIR$/03-Spring-00-ThirdLayerApplication-01-web" />
+    <file type="web" url="file://$PROJECT_DIR$/05-SpringMVC-01-Start" />
+    <file type="web" url="file://$PROJECT_DIR$/05-SpringMVC-02-RequestMapping" />
+    <file type="web" url="file://$PROJECT_DIR$/05-SpringMVC-03-Param" />
+    <file type="web" url="file://$PROJECT_DIR$/05-SpringMVC-04-Encoding" />
+    <file type="web" url="file://$PROJECT_DIR$/05-SpringMVC-05-Date" />
+    <file type="web" url="file://$PROJECT_DIR$/05-SpringMVC-06-ViewResolver" />
+    <file type="web" url="file://$PROJECT_DIR$/05-SpringMVC-07-ResponseData" />
+    <file type="web" url="file://$PROJECT_DIR$/05-SpringMVC-08-OtherAnnotation" />
+    <file type="web" url="file://$PROJECT_DIR$/05-SpringMVC-09-Ajax" />
+    <file type="web" url="file://$PROJECT_DIR$/05-SpringMVC-10-FileUpLoad" />
+    <file type="web" url="file://$PROJECT_DIR$/06-SSM-01-Wyy" />
+    <file type="web" url="file://$PROJECT_DIR$/06-SSM-02-Poverty" />
+    <file type="web" url="file://$PROJECT_DIR$/07-JWT-00-Session-Cookie" />
+    <file type="web" url="file://$PROJECT_DIR$/07-JWT-02-Web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/02-Mybatis-ORM/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-07-log/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-06-Lazy/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-11-Test/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-00-JDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-08-Bind/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-09-CRUD/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-10-Util/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-18-Lazy/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-01-start/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-04-Scope/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-01-start/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-06-Alias/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-14-Cache/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-16-Druid/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-03-Create/pom.xml" />
+        <option value="$PROJECT_DIR$/05-SpringMVC-05-Date/pom.xml" />
+        <option value="$PROJECT_DIR$/05-SpringMVC-09-Ajax/pom.xml" />
+        <option value="$PROJECT_DIR$/05-SpringMVC-01-Start/pom.xml" />
+        <option value="$PROJECT_DIR$/05-SpringMVC-03-Param/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-02-Bean-Name/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-05-Lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-07-DI-02-set/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-03-Character/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-19-Generator/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-09-AOP-01-XML/pom.xml" />
+        <option value="$PROJECT_DIR$/01-ThirdLayerApplication/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-05-Properties/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-15-PageHelper/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-17-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-08-JDBC-01-XML/pom.xml" />
+        <option value="$PROJECT_DIR$/05-SpringMVC-04-Encoding/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-02-More-Mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-04-Placeholder/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-12-Multi-Table/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Mybatis-13-Dynamic-SQL/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-09-AOP-00-Start/pom.xml" />
+        <option value="$PROJECT_DIR$/04-DesignPattern-01-Proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/05-SpringMVC-10-FileUpLoad/pom.xml" />
+        <option value="$PROJECT_DIR$/05-SpringMVC-06-ViewResolver/pom.xml" />
+        <option value="$PROJECT_DIR$/05-SpringMVC-07-ResponseData/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-07-DI-04-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-07-DI-05-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-07-DI-01-Constructor/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-07-DI-03-ComplexType/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-09-AOP-02-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/05-SpringMVC-02-RequestMapping/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-08-JDBC-02-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-10-Transaction-02-XML/pom.xml" />
+        <option value="$PROJECT_DIR$/05-SpringMVC-08-OtherAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-10-Transaction-04-Propagate/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-10-Transaction-03-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-10-Transaction-01-Programming/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-00-ThirdLayerApplication-01-web/pom.xml" />
+        <option value="$PROJECT_DIR$/06-SSM-01-Wyy/pom.xml" />
+        <option value="$PROJECT_DIR$/06-SSM-02-Poverty/pom.xml" />
+        <option value="$PROJECT_DIR$/07-JWT-00-Session-Cookie/pom.xml" />
+        <option value="$PROJECT_DIR$/07-JWT-01-start/pom.xml" />
+        <option value="$PROJECT_DIR$/07-JWT-02-Web/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
