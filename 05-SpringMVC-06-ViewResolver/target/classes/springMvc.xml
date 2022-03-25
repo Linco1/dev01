@@ -26,15 +26,15 @@
     <!--通过访问mapping中的路径就能够访问到location中真实的路径-->
 
 
-    <mvc:resources location="/WEB-INF/image" mapping="/image/**"/>
+    <mvc:resources location="/WEB-INF/image/" mapping="/image/**"/>
 
-    <mvc:resources location="/WEB-INF/html" mapping="/html/**"/>
+    <mvc:resources location="/WEB-INF/html/" mapping="/html/**"/>
 
-    <mvc:resources location="/WEB-INF/css" mapping="/css/**"/>
+    <mvc:resources location="/WEB-INF/css/" mapping="/css/**"/>
 
-    <mvc:resources location="/WEB-INF/js" mapping="/js/**"/>
+    <mvc:resources location="/WEB-INF/js/" mapping="/js/**"/>
 
-    <mvc:resources location="/WEB-INF/font" mapping="/font/**"/>
+    <mvc:resources location="/WEB-INF/font/" mapping="/font/**"/>
 
     <!--配置视图解析器-->
 
