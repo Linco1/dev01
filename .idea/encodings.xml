@@ -108,12 +108,27 @@
     <file url="file://$PROJECT_DIR$/06-SSM-01-Wyy/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06-SSM-02-Poverty/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06-SSM-02-Poverty/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-SSM-03-Cloud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-SSM-03-Cloud/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-SpringBoot-01-Score/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/07-JWT-00-Session-Cookie/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/07-JWT-00-Session-Cookie/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/07-JWT-01-start/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/07-JWT-01-start/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/07-JWT-02-Web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/07-JWT-02-Web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-00-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-00-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-02-Config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-03-Profile/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-04-Annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-05-Conditional/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-06-Conditional/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-07-JSP/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-08-JdbcTemplate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-09-MyBatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-10-Restful/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-StringBoot-01-starter/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

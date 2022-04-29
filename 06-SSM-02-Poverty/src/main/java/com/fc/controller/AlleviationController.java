@@ -19,7 +19,7 @@ public class AlleviationController {
 
     @GetMapping("getlist")
     public ResultVO getlist(@RequestParam(value = "pageNum",defaultValue = "1") Integer pageNum,
-                            @RequestParam(value = "pageNum",defaultValue = "3")Integer pageSize,
+                            @RequestParam(value = "pageSize",defaultValue = "5")Integer pageSize,
                             Long id) {
         return alleviationService.getlist(pageNum,pageSize,id);
 

@@ -8,13 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("volunteerRecruitment")
+@RequestMapping("volunteer")
 public class VolunteerRecruitmentController {
     @Autowired
     private VolunteerRecruitmentService volunteerRecruitmentService;
     @GetMapping("getlist")
     public ResultVO getlist(@RequestParam(value = "pageNum",defaultValue = "1") Integer pageNum,
-                            @RequestParam(value = "pageNum",defaultValue = "3")Integer pageSize,
+                            @RequestParam(value = "pageSize",defaultValue = "5")Integer pageSize,
                             Long id) {
         return volunteerRecruitmentService.getlist(pageNum,pageSize,id);
 

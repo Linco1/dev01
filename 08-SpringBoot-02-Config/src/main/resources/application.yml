@@ -1,0 +1,20 @@
+server:
+  port: 8848
+  servlet:
+    context-path: /yml
+
+student:
+  name: "拉拉"
+  age: 22
+  gender: '男'
+  married: false
+  birthday: 2001/01/24 10:00:01
+  hobby: ["演戏","唱歌"]
+  food:
+    - 煎饼
+    - 八宝粥
+    - 鸡公煲
+  score: {"Java":100, "MySQL":10}
+  car:
+    name: BYD
+    color: 黑色

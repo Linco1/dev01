@@ -15,6 +15,7 @@
     <file type="web" url="file://$PROJECT_DIR$/05-SpringMVC-10-FileUpLoad" />
     <file type="web" url="file://$PROJECT_DIR$/06-SSM-01-Wyy" />
     <file type="web" url="file://$PROJECT_DIR$/06-SSM-02-Poverty" />
+    <file type="web" url="file://$PROJECT_DIR$/06-SSM-03-Cloud" />
     <file type="web" url="file://$PROJECT_DIR$/07-JWT-00-Session-Cookie" />
     <file type="web" url="file://$PROJECT_DIR$/07-JWT-02-Web" />
   </component>
@@ -76,10 +77,25 @@
         <option value="$PROJECT_DIR$/03-Spring-10-Transaction-01-Programming/pom.xml" />
         <option value="$PROJECT_DIR$/03-Spring-00-ThirdLayerApplication-01-web/pom.xml" />
         <option value="$PROJECT_DIR$/06-SSM-01-Wyy/pom.xml" />
-        <option value="$PROJECT_DIR$/06-SSM-02-Poverty/pom.xml" />
         <option value="$PROJECT_DIR$/07-JWT-00-Session-Cookie/pom.xml" />
         <option value="$PROJECT_DIR$/07-JWT-01-start/pom.xml" />
         <option value="$PROJECT_DIR$/07-JWT-02-Web/pom.xml" />
+        <option value="$PROJECT_DIR$/06-SSM-02-Poverty/pom.xml" />
+        <option value="$PROJECT_DIR$/08-StringBoot-00-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/06-SSM-03-Cloud/pom.xml" />
+        <option value="$PROJECT_DIR$/08-StringBoot-01-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-02-Config/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-00-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-03-Profile/pom.xml" />
+        <option value="$PROJECT_DIR$/08-springboot-04-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-05-Conditional/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-06-Conditional/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-07-JSP/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-08-JdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-09-MyBatis/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-10-MyBatis/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-10-Restful/pom.xml" />
+        <option value="$PROJECT_DIR$/06-SpringBoot-01-Score/pom.xml" />
       </list>
     </option>
   </component>

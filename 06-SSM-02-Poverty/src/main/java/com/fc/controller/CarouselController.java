@@ -17,7 +17,7 @@ public class CarouselController {
 
     @RequestMapping("getlist")
     public ResultVO getlist(@RequestParam(value = "pageNum",defaultValue = "1") Integer pageNum,
-                            @RequestParam(value = "pageNum",defaultValue = "3")Integer pageSize,
+                            @RequestParam(value = "pageSize",defaultValue = "5")Integer pageSize,
                             Integer id) {
         return carouselService.getlist(pageNum,pageSize,id);
 
