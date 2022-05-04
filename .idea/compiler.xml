@@ -10,11 +10,11 @@
         <module name="04-DesignPattern-01-Proxy" />
         <module name="03-Spring-07-DI-04-Annotation" />
         <module name="02-Mybatis-01-start" />
-        <module name="06-SSM-03-Cloud" />
         <module name="08-SpringBoot-01-starter" />
         <module name="05-SpringMVC-01-Start" />
         <module name="05-SpringMVC-07-ResponseData" />
         <module name="03-Spring-08-JDBC-02-Annotation" />
+        <module name="09-SpringBoot-01-Score" />
         <module name="02-Mybatis-10-Util" />
         <module name="02-Mybatis-09-CRUD" />
         <module name="_03-Spring-00-ThirdLayerApplication-01-web" />
@@ -149,6 +149,7 @@
       <module name="08-SpringBoot-08-JdbcTemplate" target="1.8" />
       <module name="08-SpringBoot-09-MyBatis" target="1.8" />
       <module name="08-SpringBoot-10-Restful" target="1.8" />
+      <module name="09-SpringBoot-01-Score" target="1.8" />
       <module name="_01-ThirdLayerApplication" target="1.8" />
       <module name="_03-Spring-00-ThirdLayerApplication-01-web" target="1.8" />
       <module name="_05-SpringMVC-02-RequestMapping" target="1.8" />
@@ -225,6 +226,7 @@
       <module name="08-SpringBoot-08-JdbcTemplate" options="-parameters" />
       <module name="08-SpringBoot-09-MyBatis" options="-parameters" />
       <module name="08-SpringBoot-10-Restful" options="-parameters" />
+      <module name="09-SpringBoot-01-Score" options="-parameters" />
       <module name="_01-ThirdLayerApplication" options="" />
       <module name="_03-Spring-00-ThirdLayerApplication-01-web" options="" />
       <module name="_05-SpringMVC-02-RequestMapping" options="" />

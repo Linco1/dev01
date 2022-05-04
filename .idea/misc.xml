@@ -82,7 +82,6 @@
         <option value="$PROJECT_DIR$/07-JWT-02-Web/pom.xml" />
         <option value="$PROJECT_DIR$/06-SSM-02-Poverty/pom.xml" />
         <option value="$PROJECT_DIR$/08-StringBoot-00-starter/pom.xml" />
-        <option value="$PROJECT_DIR$/06-SSM-03-Cloud/pom.xml" />
         <option value="$PROJECT_DIR$/08-StringBoot-01-starter/pom.xml" />
         <option value="$PROJECT_DIR$/08-SpringBoot-02-Config/pom.xml" />
         <option value="$PROJECT_DIR$/08-SpringBoot-00-starter/pom.xml" />
@@ -96,6 +95,7 @@
         <option value="$PROJECT_DIR$/08-SpringBoot-10-MyBatis/pom.xml" />
         <option value="$PROJECT_DIR$/08-SpringBoot-10-Restful/pom.xml" />
         <option value="$PROJECT_DIR$/06-SpringBoot-01-Score/pom.xml" />
+        <option value="$PROJECT_DIR$/09-SpringBoot-01-Score/pom.xml" />
       </list>
     </option>
   </component>

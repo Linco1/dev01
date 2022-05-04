@@ -55,7 +55,6 @@
       <module fileurl="file://$PROJECT_DIR$/05-SpringMVC-10-FileUpLoad/05-SpringMVC-10-FileUpLoad.iml" filepath="$PROJECT_DIR$/05-SpringMVC-10-FileUpLoad/05-SpringMVC-10-FileUpLoad.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-SSM-01-Wyy/06-SSM-01-Wyy.iml" filepath="$PROJECT_DIR$/06-SSM-01-Wyy/06-SSM-01-Wyy.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-SSM-02-Poverty/06-SSM-02-Poverty.iml" filepath="$PROJECT_DIR$/06-SSM-02-Poverty/06-SSM-02-Poverty.iml" />
-      <module fileurl="file://$PROJECT_DIR$/06-SSM-03-Cloud/06-SSM-03-Cloud.iml" filepath="$PROJECT_DIR$/06-SSM-03-Cloud/06-SSM-03-Cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-SpringBoot-01-Score/06-SpringBoot-01-Score.iml" filepath="$PROJECT_DIR$/06-SpringBoot-01-Score/06-SpringBoot-01-Score.iml" />
       <module fileurl="file://$PROJECT_DIR$/07-JWT-00-Session-Cookie/07-JWT-00-Session-Cookie.iml" filepath="$PROJECT_DIR$/07-JWT-00-Session-Cookie/07-JWT-00-Session-Cookie.iml" />
       <module fileurl="file://$PROJECT_DIR$/07-JWT-01-start/07-JWT-01-start.iml" filepath="$PROJECT_DIR$/07-JWT-01-start/07-JWT-01-start.iml" />
@@ -71,6 +70,7 @@
       <module fileurl="file://$PROJECT_DIR$/08-SpringBoot-08-JdbcTemplate/08-SpringBoot-08-JdbcTemplate.iml" filepath="$PROJECT_DIR$/08-SpringBoot-08-JdbcTemplate/08-SpringBoot-08-JdbcTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-SpringBoot-09-MyBatis/08-SpringBoot-09-MyBatis.iml" filepath="$PROJECT_DIR$/08-SpringBoot-09-MyBatis/08-SpringBoot-09-MyBatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-SpringBoot-10-Restful/08-SpringBoot-10-Restful.iml" filepath="$PROJECT_DIR$/08-SpringBoot-10-Restful/08-SpringBoot-10-Restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-SpringBoot-01-Score/09-SpringBoot-01-Score.iml" filepath="$PROJECT_DIR$/09-SpringBoot-01-Score/09-SpringBoot-01-Score.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-ThirdLayerApplication/_01-ThirdLayerApplication.iml" filepath="$PROJECT_DIR$/01-ThirdLayerApplication/_01-ThirdLayerApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-Spring-00-ThirdLayerApplication-01-web/_03-Spring-00-ThirdLayerApplication-01-web.iml" filepath="$PROJECT_DIR$/03-Spring-00-ThirdLayerApplication-01-web/_03-Spring-00-ThirdLayerApplication-01-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-SpringMVC-02-RequestMapping/_05-SpringMVC-02-RequestMapping.iml" filepath="$PROJECT_DIR$/05-SpringMVC-02-RequestMapping/_05-SpringMVC-02-RequestMapping.iml" />
